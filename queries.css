@@ -1,0 +1,44 @@
+@media (max-width: 24rem) {
+  .container {
+    max-width: 270px;
+    grid-template-columns: 1fr;
+    padding: 1rem;
+  }
+  .top {
+    padding: 2rem;
+  }
+
+  .top p {
+    font-size: 1.3rem;
+  }
+
+  .left h2 {
+    font-size: 1.5rem;
+  }
+
+  .plan p {
+    font-size: 2.5rem;
+  }
+
+  .plan span {
+    font-size: 1.3rem;
+  }
+
+  .description {
+    font-size: 1.3rem;
+    margin-bottom: 1.5rem;
+  }
+
+  button {
+    font-size: 1rem;
+    padding: 1rem 8rem;
+  }
+
+  .right h2 {
+    font-size: 1.5rem;
+  }
+
+  .right ul {
+    font-size: 1.2rem;
+  }
+}

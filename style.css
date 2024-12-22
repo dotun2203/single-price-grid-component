@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: hsl(204, 43%, 93%);
+  height: 100vh;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.5;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 400px;
+  /* background-color: white; */
+  padding: 2rem;
+}
+
+.top {
+  background-color: white;
+  grid-column: 1/-1;
+  padding: 3rem;
+}
+
+.top h1 {
+  font-size: 1.5rem;
+  color: hsl(179, 62%, 43%);
+  margin-bottom: 1rem;
+}
+
+.top h4 {
+  font-size: 1.2rem;
+  color: hsl(71, 73%, 54%);
+  margin-bottom: 1rem;
+}
+
+.top p {
+  font-size: 1rem;
+  /* width: 60%; */
+}
+
+.plan {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  /* margin-bottom: 1rem; */
+}
+
+.plan p {
+  font-size: 2rem;
+}
+.left {
+  background-color: hsl(179, 62%, 43%);
+  padding: 2rem;
+  color: hsl(204, 43%, 93%);
+  /* margin-bottom: 2rem; */
+}
+
+.description {
+  margin-bottom: 1.5rem;
+}
+
+.left h2 {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+button {
+  color: white;
+  padding: 0.8rem 5rem;
+  text-align: center;
+  font-size: 0.8rem;
+  border: none;
+  background-color: hsl(71, 73%, 54%);
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.right {
+  background-color: rgba(42, 178, 175, 0.7);
+  padding: 2rem;
+  color: hsl(204, 43%, 93%);
+}
+
+.right h2 {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.right ul {
+  list-style: none;
+  line-height: 1.5;
+  font-size: 0.9rem;
+}
